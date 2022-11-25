@@ -1,0 +1,81 @@
+.navBarItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 0 30px;
+    background-color: #222;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25); 
+    width: 95%;
+    height: 100px;
+    border-radius: 13px;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%) ;
+}
+
+.Tittle{
+    display: flex;
+    align-items: center;
+    justify-self: start;
+    color: #fff;
+    width: 90px;
+    margin: 5px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.logo{
+    margin-right: 5px;
+}
+
+.navProductos{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    justify-content: end;
+}
+.navLinks{
+    color: #fff;
+    padding: 0.7rem 1rem;
+    white-space: nowrap;
+}
+.navLinks i{
+    padding-right: 10px;
+}
+
+.navLinks:hover{
+    background-color: rgb(248, 195, 47);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+a{
+    display: flex;
+    align-items: center;
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    justify-content: end;
+}
+.navAbout{
+    color: #fff;
+    padding: 0.7rem 1rem;
+    white-space: nowrap;
+}
+.navAbout i{
+    padding-right: 10px;
+}
+
+.navAbout:hover{
+    background-color: rgb(248, 195, 47);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}

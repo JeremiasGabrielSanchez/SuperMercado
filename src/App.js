@@ -1,8 +1,11 @@
+import "./style.css";
+import NavBar from "./Component/NavBar";
+
 function App() {
   return (
     <>
-      <header className="App-header">
-        <h1>Hola guapo</h1>
+      <header className="App">
+      <NavBar/>
       </header>
     </>
   );
